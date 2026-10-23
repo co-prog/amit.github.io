@@ -1,0 +1,7 @@
+*{box-sizing:border-box}
+body.auth{margin:0;min-height:100vh;display:grid;place-items:center;padding:20px;font:14px/1.5 'Poppins',sans-serif;background:radial-gradient(520px circle at 82% 8%,rgba(0,196,106,.3),transparent 60%),radial-gradient(420px circle at 8% 92%,rgba(51,214,166,.2),transparent 60%),#0b0b0d}
+.card{width:min(400px,100%);background:#fff;border-radius:24px;padding:34px;display:grid;gap:14px;box-shadow:0 30px 80px rgba(0,0,0,.45)}.card[hidden]{display:none}
+.card h1{margin:0;font-size:24px;font-weight:600}.card p{margin:0;color:#777;font-size:13px}.card .err{color:#d33;font-weight:500}
+.card input{width:100%;padding:12px 14px;border:1px solid #dcdce2;border-radius:12px;font:inherit}.card a{color:#111;font-size:13px}
+.b{background:#111;color:#fff;border:0;border-radius:99px;padding:12px 20px;font:500 14px 'Poppins';cursor:pointer}.b.ghost{background:#fff;color:#111;border:1px solid #dcdce2}
+.codebox{font:600 19px ui-monospace,Menlo,monospace;letter-spacing:.08em;text-align:center;background:#eafaf1;border:1px dashed #00C46A;border-radius:12px;padding:14px;user-select:all}

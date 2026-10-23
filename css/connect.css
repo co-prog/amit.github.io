@@ -1,0 +1,5 @@
+#cn{position:fixed;inset:0;z-index:100;display:grid;place-items:center;background:rgba(10,10,12,.72);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);padding:20px;font:14px/1.5 'Poppins',sans-serif;color:#111}
+.cnc{background:#fff;border-radius:24px;padding:30px;width:min(780px,100%);display:grid;gap:14px;max-height:92vh;overflow:auto}.cnc h2{margin:0;font-size:22px;font-weight:600}.cnc h3{margin:0;font-size:16px;font-weight:600}.cnc p{margin:0;color:#666}
+.cnopts{display:grid;grid-template-columns:1fr 1fr;gap:16px}.cnopts>div{border:1px solid #e6e6ea;border-radius:18px;padding:18px;display:grid;gap:10px;align-content:start}
+.cnc input{width:100%;padding:10px 12px;border:1px solid #dcdce2;border-radius:10px;font:inherit}.cnc .b{background:#111;color:#fff;border:0;border-radius:99px;padding:11px 20px;font:500 14px 'Poppins';cursor:pointer}
+.cnc .err{color:#d33;font-weight:500}.cnc code{background:#f3f3f6;padding:1px 6px;border-radius:6px}@media(max-width:700px){.cnopts{grid-template-columns:1fr}}

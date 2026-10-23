@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login — Amit Kumar</title><meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/auth.css"><link rel="stylesheet" href="css/connect.css"></head>
+<body class="auth">
+<form id="lf" class="card"><h1>Admin login</h1><p>Sign in to manage your portfolio.</p>
+<input id="lu" placeholder="Username" autocomplete="username" autofocus required><input id="pw" type="password" placeholder="Password" autocomplete="current-password" required>
+<button class="b">Sign in</button><p id="le" class="err"></p><a href="#" id="fg">Forgot password?</a><a href="index.html">← Back to website</a></form>
+<form id="rf" class="card" hidden><h1>Reset password</h1><p>Enter your username, the recovery code you saved when the account was created, and a new password.</p>
+<input id="ru" placeholder="Username" required><input id="rc" placeholder="Recovery code (XXXX-XXXX-XX)" required><input id="rp" type="password" placeholder="New password (6+ characters)" autocomplete="new-password" required>
+<button class="b">Reset password</button><p id="re" class="err"></p><a href="#" id="bk">← Back to login</a></form>
+<script src="data/users.js"></script><script src="js/backend.js"></script><script src="js/auth.js"></script><script src="js/login.js"></script>
+</body></html>

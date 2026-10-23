@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Admin — Amit Kumar</title><meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/admin.css"><link rel="stylesheet" href="css/connect.css"></head>
+<body>
+<header><b>Portfolio admin</b>
+<nav id="tabs"><button data-t="projects" class="on">Work</button><button data-t="posts">Blog</button><button data-t="site">Site content</button><button data-t="pages">Pages &amp; CSS</button><button data-t="media">Media</button><button data-t="users" data-admin>Users</button></nav>
+<span id="st"></span><span id="who"></span><a href="index.html" target="_blank">View site ↗</a><a href="#" id="chg" title="Change where your site is saved">Storage</a><a href="#" id="out">Log out</a></header>
+<div id="tip">Save writes straight into the real file <code>data/site-data.js</code>. Videos, images and documents go into <code>uploads/videos</code>, <code>uploads/images</code> and <code>uploads/documents</code>. Refresh the website to see changes.</div>
+<main id="app"></main>
+<script src="data/users.js"></script><script src="data/site-data.js"></script>
+<script src="js/backend.js"></script><script src="js/auth.js"></script><script src="js/admin.js"></script>
+</body></html>
