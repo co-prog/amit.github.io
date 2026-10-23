@@ -87,21 +87,6 @@ window.SITE_DATA = {
       "html": ""
     },
     {
-      "id": "design-to-dev-handoff-for-customer-apps",
-      "category": "design",
-      "title": "Design-to-dev handoff for customer apps",
-      "tags": [
-        "Handoff",
-        "Responsive"
-      ],
-      "summary": "At Zeemo: responsive, cross-browser, component-based design handed to developers.",
-      "stat": "Cleaner developer handoffs",
-      "link": "",
-      "video": "",
-      "art": "a2",
-      "html": ""
-    },
-    {
       "category": "pm",
       "title": "dfgdsad",
       "tags": [
@@ -119,6 +104,21 @@ window.SITE_DATA = {
       "doc": "uploads/documents/mvkn4kc6-Weighbridge_Technical_Document.pdf",
       "html": "<h2>Heading</h2>\n<p>Write your text here.</p>\n<h1>Amit Kumar</h1>",
       "id": "dfgdsad"
+    },
+    {
+      "id": "design-to-dev-handoff-for-customer-apps",
+      "category": "design",
+      "title": "Design-to-dev handoff for customer apps",
+      "tags": [
+        "Handoff",
+        "Responsive"
+      ],
+      "summary": "At Zeemo: responsive, cross-browser, component-based design handed to developers.",
+      "stat": "Cleaner developer handoffs",
+      "link": "",
+      "video": "",
+      "art": "a2",
+      "html": ""
     }
   ],
   "posts": [
@@ -217,5 +217,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792740107033
+  "updated": 1792740135146
 };
