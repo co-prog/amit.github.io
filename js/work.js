@@ -36,6 +36,9 @@ siteReady.then(D=>{
  const cats=D.categories,L=document.getElementById('wfil'),G=document.getElementById('pgrid');
  L.innerHTML=cats.map(c=>`<button data-w="${esc(c.id)}">${esc(c.label)}</button>`).join('')+'<button data-w="all">All</button>';
  G.innerHTML=D.projects.map(p=>{
+    const ext=/^https?:/i.test(p.link||''),more=p.html||p.video,href=p.link||(more?'project.html?id='+encodeURIComponent(p.id):''),
+  media=p.video?`<div class="art vid"><video src="${esc(p.video)}"${p.image?` poster="${esc(p.image)}"`:''} muted loop playsinline preload="metadata"></video></div>`:p.image?`<div class="art vid"><img src="${esc(p.image)}" alt="" loading="lazy"></div>`:`<div class="art ${esc(p.art||'a1')}"><i></i><i></i></div>`;
+  return `<article class="proj" data-w="${esc(p.category)}">${media}<div class="pb">${(p.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}<h3><a class="pl"${href?` href="${esc(href)}"`:''}${ext?' target="_blank" rel="noopener"':''}>${esc(p.title)}</a></h3><p>${esc(p.summary)}</p><div class="stat">${esc(p.stat)}</div>${p.link&&more?`<a class="more" href="project.html?id=${encodeURIComponent(p.id)}">Case study →</a>`:''}</div></article>`}).join('');
 
  const apply=f=>{L.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.w===f));G.querySelectorAll('.proj').forEach(p=>p.hidden=!(f==='all'||p.dataset.w===f))};
  L.onclick=e=>{const b=e.target.closest('button');if(b)apply(b.dataset.w)};apply(cats[0]?cats[0].id:'all');
@@ -45,7 +48,4 @@ siteReady.then(D=>{
  G.addEventListener('mouseout',e=>{const v=vid(e);if(v&&!e.target.closest('.proj').contains(e.relatedTarget))v.pause()});
  if(matchMedia('(hover:none)').matches)G.querySelectorAll('video').forEach(v=>{v.autoplay=true;v.play().catch(()=>{})});
 
-    const ext=/^https?:/i.test(p.link||''),more=p.html||p.video,href=p.link||(more?'project.html?id='+encodeURIComponent(p.id):''),
-  media=p.video?`<div class="art vid"><video src="${esc(p.video)}"${p.image?` poster="${esc(p.image)}"`:''} muted loop playsinline preload="metadata"></video></div>`:p.image?`<div class="art vid"><img src="${esc(p.image)}" alt="" loading="lazy"></div>`:`<div class="art ${esc(p.art||'a1')}"><i></i><i></i></div>`;
-  return `<article class="proj" data-w="${esc(p.category)}">${media}<div class="pb">${(p.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('')}<h3><a class="pl"${href?` href="${esc(href)}"`:''}${ext?' target="_blank" rel="noopener"':''}>${esc(p.title)}</a></h3><p>${esc(p.summary)}</p><div class="stat">${esc(p.stat)}</div>${p.link&&more?`<a class="more" href="project.html?id=${encodeURIComponent(p.id)}">Case study →</a>`:''}</div></article>`}).join('');
 });
