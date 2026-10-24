@@ -37,16 +37,6 @@ window.SITE_DATA = {
       "read": "7 min read",
       "summary": "What it took to move cement and oil &amp; gas plants off email and Excel.",
       "html": "<p class=\"lede\">Spreadsheets and email threads were the real product. Replacing them meant understanding who touched every order, not just drawing new screens.</p>\n<h2>Start with the people in the chain</h2>\n<p>Procurement, operations, engineering and compliance each held part of the process. I mapped it with all four before writing a single requirement, so the workflow matched how plants actually run.</p>\n<h2>Prove it before replacing it</h2>\n<p>We validated with scenario-based usability tests and ran a parallel pilot next to the old process. Nobody was forced to trust the new system on faith.</p>\n<h2>Measure what changed</h2>\n<p>The result was a 40% faster workflow, 70% participation across web and mobile, 30% lower cost variance, 80% automation and zero dispute escalations.</p>\n<div class=\"key\"><b>Key takeaways</b><ul><li>Map the whole chain, not one team</li><li>Run a parallel pilot before cutting over</li><li>Pick metrics that finance and operations both care about</li></ul></div>"
-    },
-    {
-      "id": "why-i-chose-rag-over-fine-tuning-for-our-workflow-",
-      "category": "product",
-      "label": "Product · AI",
-      "title": "Why I chose RAG over fine-tuning for our workflow chatbot",
-      "date": "Aug 2026",
-      "read": "6 min read",
-      "summary": "Keeping answers current without retraining a model.",
-      "html": "<p class=\"lede\">Our users wanted to ask for vehicle tracking and plant workflows in plain language. The data changes every hour, so the answer had to stay fresh.</p>\n<h2>Why RAG</h2>\n<p>Fine-tuning bakes knowledge into the model, so every data change means retraining. With retrieval-augmented generation the chatbot reads live data through REST APIs, so answers stay current.</p>\n<h2>How we built it</h2>\n<p>The pipeline runs on n8n. Documents are split into 550-character chunks with a 50-character overlap, so ideas that cross a boundary are not lost.</p>\n<h2>How we judged quality</h2>\n<p>I defined evaluation criteria for response quality, hallucination rate and citation accuracy, with human review for decision-critical outputs. It cut research effort by 60%.</p>\n<div class=\"key\"><b>Key takeaways</b><ul><li>Choose RAG when your data changes often</li><li>Chunk size and overlap are product decisions</li><li>Define hallucination and citation checks before launch</li></ul></div>"
     }
   ],
   "custom": {
@@ -93,5 +83,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792828569826
+  "updated": 1792828576260
 };
