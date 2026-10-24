@@ -40,21 +40,6 @@ window.SITE_DATA = {
       "video": "",
       "art": "a2",
       "html": ""
-    },
-    {
-      "id": "api-specs-that-keep-every-screen-in-sync",
-      "category": "pm",
-      "title": "API specs that keep every screen in sync",
-      "tags": [
-        "APIs",
-        "Automation"
-      ],
-      "summary": "Orders, vendors and invoices sync across web and mobile; SQL funnels refined messaging before rollout.",
-      "stat": "70%+ adoption in 90 days",
-      "link": "",
-      "video": "",
-      "art": "a3",
-      "html": ""
     }
   ],
   "posts": [
@@ -153,5 +138,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792828425390
+  "updated": 1792828431822
 };
