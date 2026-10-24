@@ -12,6 +12,10 @@ window.SITE_DATA = {
     {
       "id": "ai-product",
       "label": "AI Product"
+    },
+    {
+      "id": "branding-creativity",
+      "label": "Branding & Creativity"
     }
   ],
   "projects": [
@@ -87,5 +91,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792828616993
+  "updated": 1792828691992
 };
