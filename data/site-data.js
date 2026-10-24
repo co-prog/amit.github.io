@@ -70,25 +70,6 @@ window.SITE_DATA = {
       "video": "",
       "art": "a3",
       "html": ""
-    },
-    {
-      "category": "pm",
-      "title": "dfgdsad",
-      "tags": [
-        "asdd",
-        "sadfdsa",
-        "asdfsa",
-        "asdfsa"
-      ],
-      "summary": "waegtfhujgtrfewqerdf",
-      "stat": "dsfghfdsa",
-      "link": "www.amazon.com",
-      "art": "a2",
-      "image": "uploads/images/mvkn3y33-867124b9-a6b2-454d-a2ca-336f00bbbde9.png",
-      "video": "uploads/videos/mvkn48ta-weighbridge.mp4",
-      "doc": "uploads/documents/mvkn4kc6-Weighbridge_Technical_Document.pdf",
-      "html": "<h2>Heading</h2>\n<p>Write your text here.</p>\n<h1>Amit Kumar</h1>",
-      "id": "dfgdsad"
     }
   ],
   "posts": [
@@ -187,5 +168,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792828411711
+  "updated": 1792828418928
 };
