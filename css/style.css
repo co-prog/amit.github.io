@@ -1,13 +1,6 @@
 /* Amit Kumar portfolio - shared styles for all pages */
 :root{--bg:#FFFFFF;--ink:#111113;--mute:#6E6E76;--pri:#0A0A0A;--pri-ink:#0A0A0A;--sec:#00C46A;--mint:#33D6A6;--card:#FAFAFB;--line:#E8E8EC;--dim:#E6E6EA;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-html{scroll-padding-top:env(safe-area-inset-top,0px)}
-*{box-sizing:border-box;margin:0}
-body{font-family:'Poppins',system-ui,sans-serif;background:var(--bg);color:var(--ink);overflow-x:hidden;line-height:1.6}
-a{color:inherit}:focus-visible{outline:3px solid var(--sec);outline-offset:3px}
-nav{position:fixed;top:calc(14px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);z-index:20;display:flex;padding:5px;background:var(--card);border:1px solid var(--line);border-radius:99px;box-shadow:0 8px 30px rgba(10,10,10,.18)}
-nav a{position:relative;z-index:1;font:500 14px 'Poppins';padding:9px 20px;border:0;background:none;color:var(--mute);border-radius:99px;cursor:pointer;transition:color .3s}
-nav a[aria-current=page]{color:#fff}
 #pill{position:absolute;top:5px;bottom:5px;left:5px;background:var(--pri);border-radius:99px;transition:all .45s cubic-bezier(.7,0,.2,1)}
 #wipe{position:fixed;inset:0;z-index:50;background:var(--pri);transform:translateY(100%);pointer-events:none}
 #wipe.in{transition:transform .45s cubic-bezier(.7,0,.2,1);transform:none}
@@ -15,7 +8,6 @@ nav a[aria-current=page]{color:#fff}
 #dot{position:fixed;z-index:40;width:18px;height:18px;border-radius:50%;background:var(--sec);pointer-events:none;mix-blend-mode:multiply;transition:width .3s,height .3s;left:-40px;top:-40px;translate:-50% -50%}
 #dot.big{width:64px;height:64px}
 @media (pointer:coarse){#dot{display:none}}
-.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
 /* hero */
 .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding-top:90px;position:relative}
 .hero h1{font-weight:800;font-size:clamp(42px,9vw,118px);line-height:1;letter-spacing:-.05em}
