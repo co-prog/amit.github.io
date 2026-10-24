@@ -8,6 +8,10 @@ window.SITE_DATA = {
     {
       "id": "design",
       "label": "Product Design"
+    },
+    {
+      "id": "ai-product",
+      "label": "AI Product"
     }
   ],
   "projects": [
@@ -83,5 +87,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792828576260
+  "updated": 1792828616993
 };
