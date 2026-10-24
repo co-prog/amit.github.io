@@ -2,7 +2,7 @@
 window.SITE_DATA = {
   "categories": [
     {
-      "id": "pm",
+      "id": "pcs",
       "label": "Product Manager"
     },
     {
@@ -17,7 +17,7 @@ window.SITE_DATA = {
   "projects": [
     {
       "id": "logistics-platform-for-cement-and-oil-gas-plants",
-      "category": "pm",
+      "category": "pcs",
       "title": "Logistics platform for cement and oil & gas plants",
       "tags": [
         "B2B SaaS",
