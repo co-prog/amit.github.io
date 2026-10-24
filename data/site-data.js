@@ -3,7 +3,7 @@ window.SITE_DATA = {
   "categories": [
     {
       "id": "pcs",
-      "label": "Product Manager"
+      "label": "Product Case Study"
     },
     {
       "id": "ai-product",
