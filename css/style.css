@@ -1,6 +1,5 @@
 /* Amit Kumar portfolio - shared styles for all pages */
-:root{--bg:#FFFFFF;--ink:#111113;--mute:#6E6E76;--pri:#0A0A0A;--pri-ink:#0A0A0A;--sec:#00C46A;--mint:#33D6A6;--card:#FAFAFB;--line:#E8E8EC;--dim:#E6E6EA;
-box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root{--bg:#FFFFFF;--ink:#111113;--mute:#6E6E76;--pri:#0A0A0A;--pri-ink:#0A0A0A;--sec:#00C46A;--mint:#33D6A6;--card:#FAFAFB;--line:#E8E8EC;--dim:#E6E6EA;}
 #pill{position:absolute;top:5px;bottom:5px;left:5px;background:var(--pri);border-radius:99px;transition:all .45s cubic-bezier(.7,0,.2,1)}
 #wipe{position:fixed;inset:0;z-index:50;background:var(--pri);transform:translateY(100%);pointer-events:none}
 #wipe.in{transition:transform .45s cubic-bezier(.7,0,.2,1);transform:none}
@@ -221,29 +220,6 @@ body{overflow-x:clip}
 @media (max-width:900px){.bento{grid-template-columns:1fr 1fr}.bc.big,.bc.gr{grid-column:span 2}.bc.big{min-height:280px}.cta-band{padding:40px 26px}}
 @media (max-width:560px){.bento{grid-template-columns:1fr}.bc.big,.bc.gr{grid-column:auto}}
 @media (prefers-reduced-motion:reduce){.js .rv{opacity:1;translate:none}.mq-t{animation:none}}
-
-/* ---- background effects (all pages) ---- */
-body::before{content:"";position:fixed;inset:-20%;z-index:-2;pointer-events:none;
- background:radial-gradient(40vmax circle at 15% 20%,rgba(0,196,106,.11),transparent 60%),radial-gradient(35vmax circle at 85% 70%,rgba(51,214,166,.11),transparent 60%),radial-gradient(30vmax circle at 60% 8%,rgba(0,0,0,.045),transparent 60%);
- animation:hxa 26s ease-in-out infinite alternate}
-@keyframes hxa{to{transform:translate(4%,-3%) rotate(6deg) scale(1.08)}}
-#glow{position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(340px circle at var(--mx,70%) var(--my,25%),rgba(0,196,106,.11),transparent 70%)}
-.wrap.fx{position:relative;isolation:isolate}
-.fx::before{content:"";position:absolute;left:50%;top:0;width:100vw;height:100%;translate:-50% 0;z-index:-1;pointer-events:none;
- -webkit-mask-image:linear-gradient(transparent,#000 10%,#000 90%,transparent);mask-image:linear-gradient(transparent,#000 10%,#000 90%,transparent)}
-.fx1::before{background:radial-gradient(460px circle at 92% 6%,rgba(0,196,106,.14),transparent 70%),radial-gradient(380px circle at 4% 70%,rgba(51,214,166,.12),transparent 70%),repeating-linear-gradient(135deg,rgba(0,0,0,.03) 0 1px,transparent 1px 16px)}
-.fx2::before{background:radial-gradient(460px circle at 6% 10%,rgba(51,214,166,.14),transparent 70%),radial-gradient(420px circle at 94% 60%,rgba(0,196,106,.12),transparent 70%),radial-gradient(#d4d4da 1px,transparent 1.2px) 0 0/24px 24px}
-.fx3::before{background:radial-gradient(460px circle at 90% 90%,rgba(0,196,106,.14),transparent 70%),radial-gradient(380px circle at 8% 30%,rgba(0,0,0,.045),transparent 70%),repeating-radial-gradient(circle at 100% 18%,transparent 0 46px,rgba(0,0,0,.05) 47px 48px)}
-.orb{position:absolute;z-index:-1;pointer-events:none;border-radius:50%}
-.o1{width:120px;height:120px;border:1.5px dashed rgba(0,196,106,.55);right:2%;top:12%;animation:hxs 30s linear infinite}
-.o2{width:58px;height:58px;left:-1%;top:46%;background:linear-gradient(135deg,var(--sec),transparent);opacity:.4;animation:hxf 7s ease-in-out infinite}
-.o3{width:36px;height:36px;right:8%;bottom:9%;border:2px solid rgba(0,0,0,.13);animation:hxf 9s ease-in-out infinite}
-.fx2 .o1{right:auto;left:3%;top:22%}.fx2 .o2{left:auto;right:-1%;top:58%}.fx2 .o3{right:auto;left:10%;bottom:7%}
-.stagebox{background:linear-gradient(rgba(255,255,255,.82) 80%,transparent);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
-.stagebox::before{content:"";position:absolute;left:50%;top:50%;width:min(86vw,430px);aspect-ratio:1;translate:-50% -50%;border-radius:50%;border:1.5px dashed rgba(0,0,0,.13);animation:hxs 40s linear infinite}
-.stagebox::after{content:"";position:absolute;left:50%;top:50%;width:min(110vw,560px);aspect-ratio:1;translate:-50% -50%;border-radius:50%;background:radial-gradient(circle,rgba(0,196,106,.16),transparent 65%)}
-footer{background:linear-gradient(transparent,rgba(0,196,106,.08))}
-@media (prefers-reduced-motion:reduce){body::before,.orb,.stagebox::before{animation:none}}
 
 /* ---- data-driven cards, project page, pasted HTML ---- */
 .proj{cursor:pointer}.proj::before,.proj::after{pointer-events:none}
