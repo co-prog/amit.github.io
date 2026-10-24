@@ -21,8 +21,7 @@ window.SITE_DATA = {
       "title": "Bidding Module - From relationships to a fair decision system.",
       "tags": [
         "B2B SaaS",
-        "Web + Mobile",
-        "case study"
+        "Web + Mobile"
       ],
       "summary": "I worked on the bidding module for a B2B logistics platform used in India, UAE and Malaysia. This is how I framed the problem, found the levers, researched, picked one solution out of five, and measured it.",
       "stat": "",
@@ -90,5 +89,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792853137617
+  "updated": 1792853212801
 };
