@@ -47,16 +47,6 @@ window.SITE_DATA = {
       "read": "6 min read",
       "summary": "Keeping answers current without retraining a model.",
       "html": "<p class=\"lede\">Our users wanted to ask for vehicle tracking and plant workflows in plain language. The data changes every hour, so the answer had to stay fresh.</p>\n<h2>Why RAG</h2>\n<p>Fine-tuning bakes knowledge into the model, so every data change means retraining. With retrieval-augmented generation the chatbot reads live data through REST APIs, so answers stay current.</p>\n<h2>How we built it</h2>\n<p>The pipeline runs on n8n. Documents are split into 550-character chunks with a 50-character overlap, so ideas that cross a boundary are not lost.</p>\n<h2>How we judged quality</h2>\n<p>I defined evaluation criteria for response quality, hallucination rate and citation accuracy, with human review for decision-critical outputs. It cut research effort by 60%.</p>\n<div class=\"key\"><b>Key takeaways</b><ul><li>Choose RAG when your data changes often</li><li>Chunk size and overlap are product decisions</li><li>Define hallucination and citation checks before launch</li></ul></div>"
-    },
-    {
-      "id": "rice-prioritization-when-every-stakeholder-says-it",
-      "category": "product",
-      "label": "Product",
-      "title": "RICE prioritization when every stakeholder says it is urgent",
-      "date": "Jun 2026",
-      "read": "5 min read",
-      "summary": "A simple way to say no without losing the room.",
-      "html": "<p class=\"lede\">In enterprise software every request arrives marked urgent. A shared scoring model turns arguments into a conversation about evidence.</p>\n<h2>Score it together</h2>\n<p>Reach, Impact, Confidence and Effort give everyone the same language. Stakeholders can challenge a number, which is far better than challenging a person.</p>\n<h2>Let data raise confidence</h2>\n<p>I used SQL to track funnel drop-off, timing and feature adoption. Real usage moved confidence scores more than opinions did.</p>\n<h2>Say no with a path</h2>\n<p>A low score is not a rejection. It becomes a documented reason and a clear condition for revisiting the idea.</p>\n<div class=\"key\"><b>Key takeaways</b><ul><li>Use one scoring model for every request</li><li>Treat Confidence as the most honest column</li><li>Give every no a revisit condition</li></ul></div>"
     }
   ],
   "custom": {
@@ -103,5 +93,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792828563843
+  "updated": 1792828569826
 };
