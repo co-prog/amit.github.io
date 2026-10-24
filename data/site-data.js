@@ -6,7 +6,6 @@ window.SITE_DATA = {
       "label": "Product Manager"
     },
     {
-    {
       "id": "ai-product",
       "label": "AI Product"
     },
