@@ -16,7 +16,7 @@ window.SITE_DATA = {
   ],
   "projects": [
     {
-      "id": "logistics-platform-for-cement-and-oil-gas-plants",
+      "id": "Bidding",
       "category": "pcs",
       "title": "Bidding Module - From relationships to a fair decision system.",
       "tags": [
