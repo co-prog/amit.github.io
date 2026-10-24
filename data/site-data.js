@@ -89,21 +89,6 @@ window.SITE_DATA = {
       "doc": "uploads/documents/mvkn4kc6-Weighbridge_Technical_Document.pdf",
       "html": "<h2>Heading</h2>\n<p>Write your text here.</p>\n<h1>Amit Kumar</h1>",
       "id": "dfgdsad"
-    },
-    {
-      "id": "workflows-from-user-flow-to-prototype",
-      "category": "design",
-      "title": "Workflows from user flow to prototype",
-      "tags": [
-        "UX design",
-        "Web + Mobile"
-      ],
-      "summary": "At People Tech Group: user flows to high-fidelity prototypes, built with stakeholders.",
-      "stat": "25% less rework",
-      "link": "",
-      "video": "",
-      "art": "a1",
-      "html": ""
     }
   ],
   "posts": [
@@ -202,5 +187,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792828372613
+  "updated": 1792828411711
 };
