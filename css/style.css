@@ -108,7 +108,7 @@ footer{text-align:center;color:var(--mute);font-size:13px;padding:30px}
 .job h4{font-size:19px;letter-spacing:-.02em}.job h4 small{font-weight:400;color:var(--mute);font-size:13px}.job .meta{display:block;color:var(--pri-ink);font-weight:600;font-size:14px;margin:2px 0 10px}
 .job ul{padding-left:18px;color:var(--mute);font-size:15px;display:grid;gap:6px}
 .sk{font-size:14px;margin:18px 0 8px;color:var(--mute);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
-.art-page{max-width:760px;padding-top:130px}.back{font:500 14px 'Poppins';background:none;border:1px solid var(--line);color:var(--ink);padding:8px 18px;border-radius:99px;cursor:pointer;margin-bottom:30px}
+.art-page{max-width:760px;padding-top:60px}.back{font:500 14px 'Poppins';background:none;border:1px solid var(--line);color:var(--ink);padding:8px 18px;border-radius:99px;cursor:pointer;margin-bottom:30px}
 .art-page h1{font-size:clamp(34px,5.5vw,60px);line-height:1.05;letter-spacing:-.045em;font-weight:800;margin:14px 0}.art-page .meta{color:var(--mute);font-size:14px}
 .art-page .lede{font-size:21px;margin:26px 0;font-weight:500;line-height:1.5}.art-page h2{font-size:26px;letter-spacing:-.03em;margin:34px 0 8px}.art-page p{font-size:17px;color:var(--mute)}
 .key{margin-top:36px;padding:26px 28px;border-radius:24px;background:var(--card);border:1px solid var(--line);border-left:6px solid var(--sec)}.key b{display:block;margin-bottom:8px}.key li{margin-left:18px;color:var(--mute)}
