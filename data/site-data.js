@@ -25,21 +25,6 @@ window.SITE_DATA = {
       "video": "",
       "art": "a1",
       "html": "<h2>The problem</h2><p>Plants ran procurement on spreadsheets and email, so orders, vendors and invoices lived in different places.</p><h2>What I did</h2><p>Led one workflow across web and mobile, aligning procurement, operations, engineering and compliance, validated with scenario-based usability tests and a parallel pilot.</p><h2>Results</h2><ul><li>40% faster business workflow</li><li>80% of the workflow automated</li><li>30% lower cost variance, zero dispute escalations</li></ul>"
-    },
-    {
-      "id": "prompt-based-workflow-chatbot",
-      "category": "pm",
-      "title": "Prompt-based workflow chatbot",
-      "tags": [
-        "AI",
-        "n8n · RAG"
-      ],
-      "summary": "Users track vehicles and run plant workflows in plain language. RAG keeps answers current without retraining.",
-      "stat": "60% less research effort",
-      "link": "",
-      "video": "",
-      "art": "a2",
-      "html": ""
     }
   ],
   "posts": [
@@ -138,5 +123,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792828431822
+  "updated": 1792828437663
 };
