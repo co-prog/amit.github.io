@@ -104,21 +104,6 @@ window.SITE_DATA = {
       "video": "",
       "art": "a1",
       "html": ""
-    },
-    {
-      "id": "design-to-dev-handoff-for-customer-apps",
-      "category": "design",
-      "title": "Design-to-dev handoff for customer apps",
-      "tags": [
-        "Handoff",
-        "Responsive"
-      ],
-      "summary": "At Zeemo: responsive, cross-browser, component-based design handed to developers.",
-      "stat": "Cleaner developer handoffs",
-      "link": "",
-      "video": "",
-      "art": "a2",
-      "html": ""
     }
   ],
   "posts": [
@@ -217,5 +202,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792740166496
+  "updated": 1792828372613
 };
