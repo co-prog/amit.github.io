@@ -55,21 +55,6 @@ window.SITE_DATA = {
       "video": "",
       "art": "a3",
       "html": ""
-    },
-    {
-      "id": "a-governed-figma-design-system",
-      "category": "design",
-      "title": "A governed Figma design system",
-      "tags": [
-        "Design system",
-        "Figma"
-      ],
-      "summary": "Shared by 10+ developers and stakeholders, with clear owners and contribution rules.",
-      "stat": "Mentoring 2–3 junior designers",
-      "link": "",
-      "video": "",
-      "art": "a3",
-      "html": ""
     }
   ],
   "posts": [
@@ -168,5 +153,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792828418928
+  "updated": 1792828425390
 };
