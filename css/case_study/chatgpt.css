@@ -9,7 +9,7 @@
 /* #trk{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;height:0;border-top:2px dashed var(--g);z-index:5;pointer-events:none} */
 #mk{position:absolute;top:-13px;left:0;font-size:20px;transition:left .1s}
 .pill{display:inline-block;border:1px solid var(--line);background:var(--card);color:var(--g);border-radius:99px;padding:3px 14px;font-size:12px;font-weight:600;text-decoration:none}
-nav a{color:var(--mut);font-weight:400;margin:0 6px 8px 0}nav a:hover{color:var(--g);border-color:var(--g)}
+/* nav a{color:var(--mut);font-weight:400;margin:0 6px 8px 0}nav a:hover{color:var(--g);border-color:var(--g)} */
 h1{font-size:clamp(38px,7vw,64px);line-height:1.05;font-weight:800;margin:18px 0 18px;letter-spacing:-.03em}h1 span{color:var(--g)}
 .sub{color:var(--mut);max-width:560px;margin:0 0 20px}
 .road{position:relative;background:var(--road);border-radius:10px;height:42px;margin:44px 0 70px}
