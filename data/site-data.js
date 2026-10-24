@@ -67,16 +67,6 @@ window.SITE_DATA = {
       "read": "6 min read",
       "summary": "Lessons from moving from making screens to owning outcomes.",
       "html": "<p class=\"lede\">I started in UI/UX, moved through design roles, and now own a SaaS product as a product manager. The craft carried over; the questions changed.</p>\n<h2>From how it looks to why it exists</h2>\n<p>Design asks whether a flow is clear. Product also asks whether it should exist, what it costs, and how we will know it worked.</p>\n<h2>Learn the system</h2>\n<p>Writing API specs and understanding data flows made me a better partner to engineers and removed guesswork from planning.</p>\n<h2>Keep the design habit</h2>\n<p>Prototyping and usability testing remain my fastest way to settle debates. I also mentor 2–3 junior designers, which keeps me close to the craft.</p>\n<div class=\"key\"><b>Key takeaways</b><ul><li>Design skills are a product superpower</li><li>Learn APIs and data early</li><li>Measure outcomes, not output</li></ul></div>"
-    },
-    {
-      "id": "building-a-governed-design-system-that-10-people-a",
-      "category": "design",
-      "label": "Design",
-      "title": "Building a governed design system that 10+ people actually use",
-      "date": "Feb 2026",
-      "read": "5 min read",
-      "summary": "Start small, set rules, and let teams adopt it.",
-      "html": "<p class=\"lede\">A design system fails when it feels like extra work. Ours worked because it removed work for designers and developers.</p>\n<h2>Govern, do not police</h2>\n<p>A governed Figma system means clear owners, simple contribution rules and a review path. That kept 10+ developers and stakeholders aligned without slowing delivery.</p>\n<h2>Build from real screens</h2>\n<p>We extracted components from shipped workflows instead of inventing a library first, so every piece had a proven use.</p>\n<h2>Make handoff boring</h2>\n<p>Component-based design with responsive, cross-browser behavior documented up front cut the back-and-forth at handoff.</p>\n<div class=\"key\"><b>Key takeaways</b><ul><li>Start from shipped screens</li><li>Assign owners and a contribution path</li><li>Optimize for easy handoff</li></ul></div>"
     }
   ],
   "custom": {
@@ -123,5 +113,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792828437663
+  "updated": 1792828558871
 };
