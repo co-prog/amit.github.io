@@ -57,16 +57,6 @@ window.SITE_DATA = {
       "read": "5 min read",
       "summary": "A simple way to say no without losing the room.",
       "html": "<p class=\"lede\">In enterprise software every request arrives marked urgent. A shared scoring model turns arguments into a conversation about evidence.</p>\n<h2>Score it together</h2>\n<p>Reach, Impact, Confidence and Effort give everyone the same language. Stakeholders can challenge a number, which is far better than challenging a person.</p>\n<h2>Let data raise confidence</h2>\n<p>I used SQL to track funnel drop-off, timing and feature adoption. Real usage moved confidence scores more than opinions did.</p>\n<h2>Say no with a path</h2>\n<p>A low score is not a rejection. It becomes a documented reason and a clear condition for revisiting the idea.</p>\n<div class=\"key\"><b>Key takeaways</b><ul><li>Use one scoring model for every request</li><li>Treat Confidence as the most honest column</li><li>Give every no a revisit condition</li></ul></div>"
-    },
-    {
-      "id": "from-ui-ux-designer-to-product-manager-what-change",
-      "category": "career",
-      "label": "Career",
-      "title": "From UI/UX designer to product manager: what changed",
-      "date": "Apr 2026",
-      "read": "6 min read",
-      "summary": "Lessons from moving from making screens to owning outcomes.",
-      "html": "<p class=\"lede\">I started in UI/UX, moved through design roles, and now own a SaaS product as a product manager. The craft carried over; the questions changed.</p>\n<h2>From how it looks to why it exists</h2>\n<p>Design asks whether a flow is clear. Product also asks whether it should exist, what it costs, and how we will know it worked.</p>\n<h2>Learn the system</h2>\n<p>Writing API specs and understanding data flows made me a better partner to engineers and removed guesswork from planning.</p>\n<h2>Keep the design habit</h2>\n<p>Prototyping and usability testing remain my fastest way to settle debates. I also mentor 2–3 junior designers, which keeps me close to the craft.</p>\n<div class=\"key\"><b>Key takeaways</b><ul><li>Design skills are a product superpower</li><li>Learn APIs and data early</li><li>Measure outcomes, not output</li></ul></div>"
     }
   ],
   "custom": {
@@ -113,5 +103,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1792828558871
+  "updated": 1792828563843
 };
