@@ -78,11 +78,6 @@
 }
 
 /* ===== Sections and shared components ===== */
-section {
-  padding:46px 0 10px;
-  border-top:1px solid var(--line);
-  margin-top:34px;
-}
 
 .k {
   font-size:12px;
