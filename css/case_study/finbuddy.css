@@ -44,7 +44,7 @@
   .banner .n{font-size:13px;color:#8FCBA6;font-weight:600;}
   .banner h2{font-size:19px;font-weight:600;} */
 
-  section.block{padding:38px 0 10px;}
+  /* section.block{padding:38px 0 10px;} */
   .lead{font-size:14.5px;color:var(--muted);max-width:760px;margin-bottom:26px;}
 
   /* cards grid */
