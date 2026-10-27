@@ -18,7 +18,7 @@ window.SITE_DATA = {
     {
       "id": "Bidding",
       "category": "pcs",
-      "title": "Bidding Module - From relationships to a fair decision system.",
+      "title": "Bidding Module - From relationships to a fair decision.",
       "tags": [
         "B2B SaaS",
         "Web + Mobile"
@@ -180,5 +180,5 @@ window.SITE_DATA = {
       "l": "dispute escalations"
     }
   ],
-  "updated": 1793113085451
+  "updated": 1793113166755
 };
