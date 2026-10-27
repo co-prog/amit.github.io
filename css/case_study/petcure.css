@@ -8,7 +8,7 @@ h1 em{font-style:normal;color:var(--g)}
 .bar{display:flex;gap:6px;margin-top:26px;flex-wrap:wrap}
 .bar span{flex:1 1 140px;padding:10px 14px;border-radius:8px;color:#fff;font-weight:800;font-size:13px;text-align:center}
 .b1{background:#0b7a3b}.b2{background:#16a34a}.b3{background:#0f5132}
-section{padding:56px 0;border-top:1px solid var(--line)}
+/* section{padding:56px 0;border-top:1px solid var(--line)} */
 .lab{display:inline-block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;color:var(--g);background:var(--gs);padding:3px 9px;border-radius:6px}
 h2{font-size:clamp(24px,4vw,32px);margin:10px 0 12px;letter-spacing:-.02em}
 h3{font-size:18px;margin:26px 0 8px}
